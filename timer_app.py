@@ -6,7 +6,6 @@ import sys
 from pynput import *
 
 
-
 # A countdown style timer that you can you pick how many minutes to set for
 def timer():
     minutes = 0
@@ -71,13 +70,7 @@ def clock_app():
             os.system('cls')
             select == False
             
+            
 if __name__ == "__main__":
     clock_app()
     
-       
-
-        
-        
-        
-        
-        
